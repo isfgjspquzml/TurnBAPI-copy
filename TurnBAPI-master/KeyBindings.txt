@@ -1,0 +1,15 @@
+input.NovaCommandEvent 78
+input.KeyDeselectEvent 68
+input.MouseDeselectEvent 3
+input.MoveUpEvent 38
+input.MoveLeftEvent 37
+input.MoveDownEvent 40
+input.MouseSelectEvent 1
+input.MouseHoverEvent 503
+input.KeySelectEvent 10
+input.ProduceCommandEvent 80
+input.MoveCommandEvent 77
+input.AttackCommandEvent 65
+input.EvolveCommandEvent 69
+input.CyclePlayerEvent 32
+input.MoveRightEvent 39

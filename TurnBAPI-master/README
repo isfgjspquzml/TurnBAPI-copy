@@ -1,0 +1,32 @@
+TurnBAPI
+
+Framework for creating turn-based strategy games.
+
+Directions:
+
+Options on Menu Screen (use arrow keys and Enter to select):
+
+1. Start Game
+ - Creates a new game based on the default settings.
+ 
+2. Load Game
+ - Loads the file "sample_file.json" if there; must create a level in the level editor to select this option.
+ 
+3. Level Editor
+ - Loads the level editor
+
+Controls for Game (After selecting Start Game or Load Game)
+
+ - Game begins on Player 1's turn
+ - Units available to a certain player are highlighted if it's that player's turn
+ - To perform action with unit, click on unit
+   - To move, click on the Move button in the sidebar menu, then a select a tile to move to (must be within range).
+   - To attack, click on the Attack button in the sidebar menu, then select unit to attack.
+ - To end player turn and switch to other player, press spacebar
+ - Sidebar menu along with console is updated with statuses as various events occur
+ 
+Controls for Level Editor (After selecting Level Editor)
+
+ - Click on Add Pikachu button and then select a tile to add a Pikachu to
+ - To switch Players, click on the Player 1 or Player 2 button to switch to that player; units added afterwards belong to most recently selected player
+ - Click save to save level to "sample_file.json." This file is then loaded from when Load Game is selected.
